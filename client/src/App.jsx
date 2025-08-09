@@ -9,6 +9,7 @@ import Gallary from './pages/Gallary';
 import News from './pages/News';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
+import MyComponent from './components/component';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
+      <MyComponent />
       <Footer />
     </>
   );
